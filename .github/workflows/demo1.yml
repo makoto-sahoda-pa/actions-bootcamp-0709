@@ -6,7 +6,7 @@ on:
 jobs:
   demo1:
     runs-on: ubuntu-latest
-    Environment: EnvironmentA
+    environment: EnvironmentA
     steps:
       - name: Greet
         run: echo "Hello World"
